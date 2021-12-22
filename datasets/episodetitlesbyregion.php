@@ -4,7 +4,7 @@
 DELIMITER //
 
 CREATE PROCEDURE GetEpisodeTitlesByRegion(
-   IN region VARCHAR(4)
+   IN regionName VARCHAR(4)
 )
 
 BEGIN
